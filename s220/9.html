@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,42 +8,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        #grid div:nth-child(n+2),
-        #row1 span:nth-child(11n+1) {
+        #row1 span:nth-child(1),
+        #row1 span:nth-child(12),
+        #row2 span:nth-child(odd),
+        #row3 span:nth-child(4n+1),
+        #row3 span:nth-child(4n+2),
+        #row4 span:nth-child(-n+4),
+        #row5 span:nth-child(5n+1),
+        #row5 span:nth-child(10),
+        #row5 span:nth-child(5),
+        #row6 span:nth-child(2n+2) {
             color: red;
         }
 
         #row1 span:nth-child(7),
-        #row2 span:nth-child(2n+2),
+        #row2 span:nth-child(2n),
         #row3 span:nth-child(4n+3),
-        #row3 span:nth-child(4n+4) {
-            color: blue;
-        }
-
-        #row4 span:nth-child(n+5),
-        #row6 span:nth-child(2n+1) {
-            color: chartreuse;
-        }
-
-        #row5 span:nth-child(5n+2),
-        #row5 span:nth-child(5n+3),
-        #row5 span:nth-child(5n+4),
+        #row3 span:nth-child(4n+4),
+        #row4 span:nth-child(n+9),
         #row6 span:nth-child(3n+2),
-        #row4 span:nth-child(n+9) {
+        #row5 span {
             color: blue;
+        }
+
+
+
+        #row4 span,
+        #row6 span {
+            color: green;
         }
     </style>
+
 </head>
 
 <body>
     <div id="main-content">
         <div id="lianjie">
             <a href="8.html">上一次作业</a>
-            <a href="/s208/9.html">上一个同学</a>
-            <a href="/s210/9.html">下一个同学</a>
+            <a href="/s219/9.html">上一个同学</a>
+            <a href="/s221/9.html">下一个同学</a>
         </div>
         <div id="header">
-            <h1>吴俊雄(s209)的颜色矩阵</h1>
+            <h1>何荣华(s220)的颜色矩阵</h1>
         </div>
         <div id="grid">
             <div id="row1">
@@ -132,7 +139,5 @@
         </div>
     </div>
 </body>
-
-
 
 </html>

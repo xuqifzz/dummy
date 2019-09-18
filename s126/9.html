@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        #grid div:nth-child(n+2),
-        #row1 span:nth-child(11n+1) {
-            color: red;
-        }
-
-        #row1 span:nth-child(7),
-        #row2 span:nth-child(2n+2),
-        #row3 span:nth-child(4n+3),
-        #row3 span:nth-child(4n+4) {
-            color: blue;
-        }
-
-        #row4 span:nth-child(n+5),
-        #row6 span:nth-child(2n+1) {
-            color: chartreuse;
-        }
-
-        #row5 span:nth-child(5n+2),
-        #row5 span:nth-child(5n+3),
-        #row5 span:nth-child(5n+4),
-        #row6 span:nth-child(3n+2),
-        #row4 span:nth-child(n+9) {
-            color: blue;
-        }
+       #row1 span:nth-child(1),
+       #row1 span:nth-child(12){
+           color: red;
+       }
+       #row1 span:nth-child(7){
+           color: blue;
+       }
+       #row2 span:nth-child(even){
+           color: blue;
+       }
+       #row2 span:nth-child(odd){
+           color: red;
+       }
+       #row3 span:nth-child(n+3){
+           color: blue;
+       }
+       #row3 span:nth-child(4n+1){
+           color: red;
+       }
+       #row3 span:nth-child(4n+2){
+           color: red;
+       }
+       #row4 span:nth-child(-n+4){
+           color: red;
+       }
+       #row4 span:nth-child(n+5){
+           color:green;
+       }
+       #row4 span:nth-child(n+9){
+           color: blue;
+       }
+       #row5 span:nth-child(1){
+           color: red;
+       }
+       #row5 span:nth-child(n+2){
+           color:blue;
+       }
+       #row5 span:nth-child(n+5){
+           color:red;
+       }
+       #row5 span:nth-child(n+7){
+           color:blue;
+       }
+       #row5 span:nth-child(n+10){
+           color:red;
+       }
+       #row5 span:nth-child(12){
+           color: blue;
+       }
+       #row6 span:nth-child(2n+1){
+           color:green;
+       }
+       #row6 span:nth-child(2n+2){
+           color: red;
+       }
+       #row6 span:nth-child(3n+2){
+           color: blue;
+       }
     </style>
 </head>
-
 <body>
     <div id="main-content">
         <div id="lianjie">
             <a href="8.html">上一次作业</a>
-            <a href="/s208/9.html">上一个同学</a>
-            <a href="/s210/9.html">下一个同学</a>
+            <a href="/s124/9.html">上一个同学</a>
+            <a href="/s127/9.html">下一个同学</a>
         </div>
         <div id="header">
-            <h1>吴俊雄(s209)的颜色矩阵</h1>
+            <h1>陈文(s126)的颜色矩阵</h1>
         </div>
         <div id="grid">
             <div id="row1">
@@ -132,7 +164,4 @@
         </div>
     </div>
 </body>
-
-
-
 </html>
